@@ -1,16 +1,16 @@
-; draft code for final project of Computer Science module, creating a simple program in Racket
+;; draft code for final project of Computer Science module, creating a simple program in Racket
 
-;Evan Higgins
-;19282508
+;;Evan Higgins
+;;19282508
 
 #lang racket
 
-; my code looks at a list of data and returns all numeric entries in a specific order
+;;my code looks at a list of data and returns all numeric entries in a specific order
 ;;excluding duplicate numbers and negative numbers
 
 (define testElements '(9 -5 14 2.5 7 10 "Carlsen" 14 -16 11 64 912 2001 "Ivanchuk" 2.5 -2 1 3 "Nakamura" 7 1 19 9 10 12))
                         
-;Function to get numbers from the list
+;;Function to get numbers from the list
 (define getNums (lambda(x)(if (number? x) x #f)))
 
 ;;Function to get positive numbers, used with getNums

@@ -4,8 +4,7 @@
 public class TestContact{
     public static void main(String[] args){
         
-        Contact alana = new Contact("Alana Sullivan", "0831111111", "alanasullivan@gmail.com", "Alana Sullivan",
-        "alana.sullivan", "@alanasullivan");
+        Contact alana = new Contact("Alana Sullivan", "0831111111", "alanasullivan@gmail.com", "Alana Sullivan", "alana.sullivan", "@alanasullivan");
         Contact evan = new Contact("Evan Higgins", "0830000000", "evanhigginsisreallycoolandhumble@live.com", "Evan Higgins", "evanhiggins_", "@evanhiggins");
         Contact bob = new Contact("Bob Sullivan", "061000000", "bobbob@bob.com", "Bob Sullivan", "bobsul69", "@bigbadbobsul");
         Contact bobby = new Contact("Bobby Fischer", "", "FischerRandom@yahoo.com", "", "", "");

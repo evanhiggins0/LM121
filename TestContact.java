@@ -1,5 +1,9 @@
+// Evan Higgins
+// Driver code for Contact.java, this time created by myself. Creating a few objects from the Contact class, and proving the getters and setters work correctly.
+
 public class TestContact{
     public static void main(String[] args){
+        
         Contact alana = new Contact("Alana Sullivan", "0831111111", "alanasullivan@gmail.com", "Alana Sullivan",
         "alana.sullivan", "@alanasullivan");
         Contact evan = new Contact("Evan Higgins", "0830000000", "evanhigginsisreallycoolandhumble@live.com", "Evan Higgins", "evanhiggins_", "@evanhiggins");

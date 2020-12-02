@@ -1,5 +1,4 @@
-// Evan Higgins
-// 19282508
+// Driver code provided to us by our lecturer
 
 public class TestMyToolBox {
 

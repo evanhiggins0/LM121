@@ -1,4 +1,6 @@
-
+// Evan Higgins
+// One part of my submission for Assignment 3 of Intro to Programming, which was to build a class that would create a "contact list" of information for a person, similar to that on a phone.
+// We had to follow specific guidelines in relation to formatting. 
 public class Contact{
 
     private String contactName;

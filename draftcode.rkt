@@ -1,3 +1,5 @@
+; draft code for final project of Computer Science module, creating a simple program in Racket
+
 ;Evan Higgins
 ;19282508
 

@@ -1,4 +1,5 @@
 // Evan Higgins
+// First assignment for Intro to Programming - Problem was to code a simple "contact card" matching the shown layout.
 
 public class ContactCard{
     public static void main(String[] args){

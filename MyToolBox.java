@@ -1,6 +1,5 @@
 // Evan Higgins
-// 19282508
-
+// Assignment 2 for Intro to Programming - Build a class with specific methods to allow the driver code provided to us to function correctly (driver code uploaded as "TestMyToolBox.java").
 public class MyToolBox{
     
     public static String repeat(String text, int times){

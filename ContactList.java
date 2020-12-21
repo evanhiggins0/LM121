@@ -113,11 +113,5 @@ public class ContactList {
         }
         return false;
     }
-    // This attempt at getting Arrays.sort() to work made me realise it's probably something to do with the null values in the array.
-    //public void sortContacts() {              
-    //    Arrays.sort(contList);
-   //     System.out.println(Arrays.toString(contList));
-       // }
-    // compareTo method, using contactName
 }
 

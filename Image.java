@@ -1,5 +1,7 @@
 // Name - Evan Higgins
-// ID - 19282508
+
+// This assignment was focused on using 2D arrays to "store and manipulate images" ie. initialising 2D arrays up to number n based on the size specified 
+// in the driver, then creating methods to manipulate this "image".
 
 import java.util.*;
 

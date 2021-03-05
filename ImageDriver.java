@@ -1,5 +1,3 @@
-// Name  - Evan Higgins
-// ID - 19282508
 
 import java.util.*;
 

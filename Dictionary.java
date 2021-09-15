@@ -1,6 +1,5 @@
 //********************//
 // Name: Evan Higgins //
-//   ID: 19282508     //
 //********************//
 
 // Updated with better format when printed to console :)

@@ -24,32 +24,23 @@ public class TestContactList {
 
         System.out.println(Contacts.nameFor("0831111111") + "\n");
         System.out.println(Contacts.nameFor("0830000000"));
-        System.out.println(Contacts.nameFor("061000000"));
-        System.out.println(Contacts.nameFor("7777777" + "\n"));
-        System.out.println(Contacts.nameFor("03819203021") + "\n");
 
         System.out.println(Contacts.numberFor("Evan Higgins") + "\n");
-        System.out.println(Contacts.numberFor("Bobby Fischer"));
-        System.out.println(Contacts.numberFor("Greg Gregson"));
-        System.out.println(Contacts.numberFor("Magnus Carlsen"));
-        System.out.println(Contacts.numberFor("Steven Cronin"));
 
         System.out.println(Contacts.nameFor("0831111111", 3));
-        System.out.println(Contacts.nameFor("+1 021-304-4988", 3) + "\n");
 
         System.out.println(Contacts.numberFor("Bob Sullivan", 5));
-        System.out.println(Contacts.numberFor("Bob Sullivan", 1) + "\n");
+
 
         ContactList Contacts1 = new ContactList(200);
 
         Contacts1.add(new Contact("John Doe", "0831234567", "johndoe@gmail.com", "John Doe", "johndoe", "@JohnDoe"));
-        Contacts1.add(new Contact("Tony Kelly", "0862349281", "theclaresniper@gmail.com", "Tony Kelly", "Tony Kelly", "@TonyKelly"));
-        Contacts1.add(new Contact("Podge Collins", "0862231211", "podgecollins@gmail.com", "Podge Collins", "Podge Collins", "@Podge"));
+
 
         Contacts.Display();
 		
-		ContactList Sorting = new ContactList(5);
-		Sorting.add(new Contact("Evan Higgins", "0830000000", "evanhigginsisreallycoolandhumble@live.com", "Evan Higgins", "evanhiggins_", "@evanhiggins"));
+	ContactList Sorting = new ContactList(5);
+	Sorting.add(new Contact("Evan Higgins", "0830000000", "evanhigginsisreallycoolandhumble@live.com", "Evan Higgins", "evanhiggins_", "@evanhiggins"));
         Sorting.add(new Contact("Bob Sullivan", "061000000", "bobbob@bob.com", "Bob Sullivan", "bobsul69", "@bigbadbobsul"));
         Sorting.add(new Contact("Bobby Fischer", "", "FischerRandom@yahoo.com", "", "", ""));
         Sorting.add(new Contact("Greg Gregson", "0831234567", "gregory@greg.com","","",""));
